@@ -21,3 +21,9 @@ A simple program to manage a thermostat built during week 6 of the Makers Bootca
    - You can ask about the thermostat's current energy usage: < 18 is low-usage, <= - 25 is medium-usage, anything else is high-usage. //done//
 
   ## Usage Examples:
+
+![image](https://user-images.githubusercontent.com/75613073/143284824-1a612762-f9aa-4bca-bada-596c8105d3ed.png)
+
+![image](https://user-images.githubusercontent.com/75613073/143284930-1eaff6d0-3a0e-400f-96bd-237d8aacb995.png)
+
+
