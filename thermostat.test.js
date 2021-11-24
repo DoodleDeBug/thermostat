@@ -16,4 +16,11 @@ describe("Thermostat class", () => {
     thermostat.down();
     expect(thermostat.getTemperature()).toBe(21);
   });
+
+  it("doesnt decrease temperature below 10", () => {
+    for (let i = 0 ; i < 20 ; i++) {
+      thermostat.down();
+    }
+    expect(thermostat.getTemperature()).toBe(10);
+  });
 });
