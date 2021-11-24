@@ -4,6 +4,10 @@ class Thermostat {
     this.max_temp = 25;
   }
 
+  getMaxTemp() {
+    return this.max_temp;
+  }
+
   getTemperature() {
     return this.temp;
   }
