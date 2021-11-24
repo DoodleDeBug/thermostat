@@ -1,7 +1,7 @@
 class Thermostat {
   constructor() {
     this.temp = 20;
-    this.max_temp = 35;
+    this.max_temp = 25;
   }
 
   getTemperature() {
