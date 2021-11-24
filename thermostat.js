@@ -9,29 +9,30 @@ class Thermostat {
   }
 
   up() {
-    if ( this.temp + 2 <= this.max_temp) {
+    if (this.temp + 2 <= this.max_temp) {
       this.temp += 2;
-    }
-    else {
-      this.temp = this.max_temp
+    } else {
+      this.temp = this.max_temp;
     }
   }
 
   down() {
-    if ( this.temp > 10) {
+    if (this.temp > 10) {
       this.temp -= 1;
     }
   }
 
   setPowerSavingMode(status) {
-    if ( status === true) {
+    if (status === true) {
       this.max_temp = 25;
-    }
-    else { 
+    } else {
       this.max_temp = 35;
     }
   }
 
+  reset() {
+    this.temp = 20;
+  }
 }
 
 module.exports = Thermostat;
