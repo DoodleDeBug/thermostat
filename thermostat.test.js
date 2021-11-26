@@ -1,7 +1,8 @@
 const Thermostat = require("./thermostat");
+const Weather = require("./weather");
 
 describe("Thermostat class", () => {
-  const thermostat = new Thermostat();
+  const thermostat = new Thermostat(new Weather());
 
   it("returns the temperature", () => {
     expect(thermostat.getTemperature()).toBe(20);
@@ -78,5 +79,9 @@ describe("Thermostat class", () => {
       thermostat.up();
     }
     expect(thermostat.usage()).toBe("high-usage");
+  });
+
+  it("accepts instance of weather when created", () => {
+    expect(thermostat.weather).toBeInstanceOf(Weather);
   });
 });

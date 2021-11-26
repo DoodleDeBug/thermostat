@@ -1,7 +1,8 @@
 class Thermostat {
-  constructor() {
+  constructor(weather) {
     this.temp = 20;
     this.max_temp = 25;
+    this.weather = weather;
   }
 
   getMaxTemp() {
