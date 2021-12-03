@@ -10,14 +10,18 @@ A simple program to manage a thermostat built during week 6 of the Makers Bootca
 
 #### Testing:
 
-Run `jest` or `jest --verbose`
+1. Fork and clone this repo
+2. `cd` into the folder
+3. Run `npm install` 
+4. Run `jest` or `jest --verbose`
 
 #### Steps:
 
 1. Fork and clone this repo
 2. `cd` into the folder
-3. Run `node cli.js` for the cli temperature controller
-4. Run `node thermostat.js` then `const thermostat = new Thermostat();` for main program
+3. Run `npm install` 
+4. Run `node cli.js` for the cli temperature controller
+5. Run `node thermostat.js` then `const thermostat = new Thermostat();` for main program
 
 ## Tech Used:
 
